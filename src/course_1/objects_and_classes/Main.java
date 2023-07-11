@@ -9,6 +9,7 @@ public class Main {
 
         Book arms = new Book("A Farewell To Arms", hemingway, 1929);
         System.out.println(arms.getName());
+        System.out.println(arms.getAuthor());
         System.out.println(arms.getPubYear());
 
         System.out.println();
@@ -19,6 +20,7 @@ public class Main {
 
         Book catch_22 = new Book("Catch-22", heller, 1961);
         System.out.println(catch_22.getName());
+        System.out.println(catch_22.getAuthor());
         System.out.println(catch_22.getPubYear());
 
         catch_22.setPubYear(1968);

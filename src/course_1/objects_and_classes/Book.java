@@ -15,8 +15,8 @@ public class Book {
         return this.name;
     }
 
-    public Author getAuthor() {
-        return this.author;
+    public String getAuthor() {
+        return author.getFirstName() + " " + author.getLastName();
     }
 
     public int getPubYear() {
