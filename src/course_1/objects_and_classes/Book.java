@@ -1,8 +1,8 @@
 package course_1.objects_and_classes;
 
 public class Book {
-    private String name;
-    private Author author;
+    private final String name;
+    private final Author author;
     private int pubYear;
 
     public Book(String name, Author author, int pubYear) {
@@ -15,8 +15,8 @@ public class Book {
         return this.name;
     }
 
-    public String getAuthor() {
-        return author.getFirstName() + " " + author.getLastName();
+    public Author getAuthor() {
+        return this.author;
     }
 
     public int getPubYear() {
